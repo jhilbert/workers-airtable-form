@@ -1,10 +1,11 @@
 name = "workers-airtable-form"
 type = "javascript"
 
-account_id = "dc56444c4c955a1653106ccf997c1067"
+account_id = "a58a2bb894f4d08f43d3e8e6151dfc1b"
 workers_dev = true
-
+# Opt into backwards-incompatible changes through April 5, 2022.
+compatibility_date = "2022-05-21"
 [vars]
-AIRTABLE_BASE_ID = "appeSWNykwi3SMV4O"
-AIRTABLE_TABLE_NAME = "Form Submissions"
-FORM_URL = "https://workers-airtable-form.pages.dev"
+AIRTABLE_BASE_ID = "appXnJ3kGUnoafWp2"
+AIRTABLE_TABLE_NAME = "Table"
+FORM_URL = "https://workers-airtable-form-8dg.pages.dev"
